@@ -11,12 +11,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.home}>
        Home
       </main>
 
       <footer className={styles.footer}>
-        
+        Home footer
       </footer>
     </div>
   )
