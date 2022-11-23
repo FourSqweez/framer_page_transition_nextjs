@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Footer from '../src/components/Footer/index';
 
 export default function Home() {
   return (
@@ -16,7 +15,12 @@ export default function Home() {
        Home
       </main>
 
-      <Footer title='Home Page Footer'/>
+      <footer className={styles.footer}>
+        Home footer
+      </footer>
+
+      {/* <Footer title='Home Page Footer' bgColor={'red'}/> */}
+
 
     </div>
   )

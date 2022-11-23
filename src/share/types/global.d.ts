@@ -3,6 +3,7 @@ export {};
 declare global {
 
   interface FooterPropsType {
-    title: string
+    title: string,
+    bgColor: any
   }
 }

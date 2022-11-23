@@ -4,11 +4,16 @@ import styles from '../styles/Tunnel.module.scss'
 const TunnelPage = () => {
   return (
 
-<>
-<div className={styles.tunnel}>TunnelPage</div>
-<footer className={styles.footer}>
+    <>
+      <div className={styles.tunnel}>TunnelPage</div>
+      <footer className={styles.footer}>
         Tunnel footer
-      </footer></>    )
+      </footer>
+
+      {/* <Footer title='Tunnel footer' bgColor={'pink'} /> */}
+
+
+    </>)
 }
 
 export default TunnelPage
